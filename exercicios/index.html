@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        p{
+    font-size: 1.2rem;
+    padding: .2rem;
+    }
+
+    </style>
 </head>
 <body>
     <!-- <button>Botãozin</button> -->
@@ -12,20 +19,81 @@
 
     <!-- <div id="joia"></div> -->
 
-    <form action="#" onsubmit="return false">
+
         <!-- <label for="">Nome</label>
         <input type="text" name="nome">
         <label for="">Idade</label>
         <input type="text" name="idade">
         <button type="submit">Enviar</button> -->
 
-        <input type="text" name="valor1">+
-        <input type="text" name="valor2">
-        <button type="submit">Calcular</button>
-    </form>
+        <!-- <input type="text" name="valor1">+
+        <input type="text" name="valor2"> -->
+        
+    <!-- </form> -->
 
-    <div id="container"></div>
+   
 
-    <script src="ex1.js"></script>
+    <div class="grid">
+        
+                <form action="#" onsubmit="return false">
+                <p>
+                    <label for="modelo">Modelo:</label>
+                    <input type="text" name="modelo">
+                </p>
+        
+        
+                <p>
+                    <label for="ano">Ano:</label>
+                    <input type="number" name="ano">
+                </p>
+        
+                <p>
+                    <label for="cor">Cor:</label>
+                    <input type="text" name="cor">
+                </p>
+        
+                <p>
+                    <label for="placa">Placa:</label>
+                    <input type="text" name="placa">
+                </p>
+        
+                <p>
+                    <label for="renavam">Renavam:</label>
+                    <input type="text" name="renavam">
+                </p>
+        
+                <p>
+                    <label for="chassi">Chassi:</label>
+                    <input type="text" name="chassi">
+                </p>
+        
+                <p>
+                    <label for="diaria">Diária:</label>
+                    <input type="number" name="diaria">
+                </p>
+        
+                <p>
+                    <label for="qtdDias">Quantos dias a ser alugado:</label>
+                    <input type="number" name="qtdDias">
+                </p>
+        
+                <p>
+                    <label for="qtdKm">KM rodados:</label>
+                    <input type="number" name="qtdKm">
+                </p>
+        
+                <p>
+                    <label for="precoGasolina">Preço do litro da Gasolina:</label>
+                    <input type="number" name="precoGasolina">
+                </p>
+        
+                <button type="submit">Enviar</button>
+                </form>
+        
+                <div id="container"></div>
+
+    </div>
+
+    <script src="ex1Teste.js"></script>
 </body>
 </html>
