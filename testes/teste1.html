@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de compras</title>
+</head>
+<body>
+    <h2>Carrinho de compras</h2>
+    <button onclick="console.log(`Carrinho de compras: ${cartQtd}`);">Mostrar Quantidade</button>
+    <button onclick= "cartQtd ++;
+    console.log(`Carrinho de compras: ${cartQtd}`);
+    ">Adicionar ao carrinho</button>
+    <button onclick ="cartQtd += 2;
+    console.log(`Carrinho de compras: ${cartQtd}`);
+    ">+2</button>
+    <button onclick ="cartQtd += 3;
+    console.log(`Cart quantitu: ${cartQtd}`);
+    ">+3</button>
+    <button onclick ="cartQtd = 0;
+    console.log(`Carrinho de compras: ${cartQtd}, Carrinho esvaziado`);
+    ">Esvaziar Carrinho</button>
+
+    <script>
+        let cartQtd = 0;
+    </script>
+
+</body>
+</html>

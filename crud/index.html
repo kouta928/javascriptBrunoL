@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" onsubmit="return false">
+        <p>
+            <label for="">Nome</label>
+            <input type="text" name="nome">
+        </p>
+
+        <p>
+            <label for="">E-mail</label>
+            <input type="text" name="email">
+        </p>
+
+        <p>
+            <label for="">Telefone</label>
+            <input type="text" name="telefone">
+        </p>
+
+        <button type="submit">Salvar</button>
+        
+    </form>
+    
+    <br>
+
+    <table width="50%" border="1">
+        <thead>
+            <th>Nome</th>
+            <th>E-mail</th>
+            <th>Telefone</th>
+            <th>Ações</th>
+        </thead>
+        <tbody id="carregaDados">
+
+        </tbody>
+    </table>
+    
+    <script src="crudlocal.js"></script>
+</body>
+</html>
